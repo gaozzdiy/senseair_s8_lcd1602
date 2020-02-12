@@ -4,7 +4,7 @@
 #include "stm32f10x_usart.h"
 #include "stm32f10x_i2c.h"
 #include "delay.h"
-//#include "USART.h" 
+#include "USART.h" 
 #include "I2C.h"
 #include "LiquidCrystal_I2C.h"
 
@@ -12,14 +12,12 @@ void USART1_Init(void); //Объявление функции инициализ
 void Usart1_Send_symbol(uint8_t); //Объявление функции передачи символа
 void Usart1_Send_String(char* str); //Объявление функции передачи строки
 
-//u8 USART1_RX_BUF[21]; 
+
 u8 USART1_RX_CNT=0;
-//u8 USART1Count;
 uint16_t  USART_RX_BUF_2[]={0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00};
- 
+uint16_t  CO2TxBuffer[9]={0xFE,0x04,0x00,0x03,0x00,0x01,0xD5,0xC5};
 int  CO2Data;
 
-uint16_t  CO2TxBuffer[9]={0xFE,0x04,0x00,0x03,0x00,0x01,0xD5,0xC5};
 
 void i2s(int num,char* str,int radix);
 
@@ -124,9 +122,13 @@ int main()
 		USART1_RX_CNT=0;
 		USART_ITConfig(USART1, USART_IT_TXE, ENABLE);
     CO2_Tx();
-    Delay(1000);//        间隔一毫秒进行一次命令发送
+    Delay(1000);//        间隔一秒进行读取
     CheckSum();
-    Delay(3000);//        间隔一毫秒进行一次命令发送
+		LCDI2C_setCursor(13,0);
+		LCDI2C_write_String(".");
+    Delay(3000);//        等待后下一次读取	
+		LCDI2C_setCursor(13,0);
+		LCDI2C_write_String(" ");
   }
 }
 
