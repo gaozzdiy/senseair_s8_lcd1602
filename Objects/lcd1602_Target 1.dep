@@ -1,0 +1,203 @@
+Dependencies for Project 'lcd1602', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\src\delay.c)(0x5E41313E)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\src-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5E413300)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (src\delay.h)(0x5E41583C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+F (.\src\I2C.c)(0x5E4160A1)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\src-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\i2c.o --omf_browse .\objects\i2c.crf --depend .\objects\i2c.d)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5E413300)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (src\delay.h)(0x5E41583C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (src\I2C.h)(0x5E415781)
+F (.\src\LiquidCrystal_I2C.c)(0x5E4134D8)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\src-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\liquidcrystal_i2c.o --omf_browse .\objects\liquidcrystal_i2c.crf --depend .\objects\liquidcrystal_i2c.d)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5E413300)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (src\delay.h)(0x5E41583C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (src\I2C.h)(0x5E415781)
+I (src\LiquidCrystal_I2C.h)(0x5E41313E)
+F (.\src\main.c)(0x5E442C1C)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\src-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5E413300)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (src\delay.h)(0x5E41583C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (src\I2C.h)(0x5E415781)
+I (src\LiquidCrystal_I2C.h)(0x5E41313E)
+F (.\src\USART.c)(0x5E4418ED)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\src-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5E413300)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (src\delay.h)(0x5E41583C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (src\USART.h)(0x5E441249)
+F (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\misc.c)(0x52F9EB20)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\src-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5E413300)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+F (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_gpio.c)(0x52F9EB20)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\src-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5E413300)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_i2c.c)(0x52F9EB20)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\src-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\stm32f10x_i2c.o --omf_browse .\objects\stm32f10x_i2c.crf --depend .\objects\stm32f10x_i2c.d)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5E413300)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_rcc.c)(0x52F9EB20)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\src-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5E413300)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_usart.c)(0x52F9EB20)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\src-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\stm32f10x_usart.o --omf_browse .\objects\stm32f10x_usart.crf --depend .\objects\stm32f10x_usart.d)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5E413300)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver\GPIO_STM32F10x.c)(0x571EF70A)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\src-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\gpio_stm32f10x.o --omf_browse .\objects\gpio_stm32f10x.crf --depend .\objects\gpio_stm32f10x.d)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver\GPIO_STM32F10x.h)(0x5617291E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5E413300)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (RTE\Device\STM32F103C8\RTE_Device.h)(0x5927DFA6)()
+F (RTE\Device\STM32F103C8\startup_stm32f10x_md.s)(0x5825386C)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
+F (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)()
+F (RTE\Device\STM32F103C8\system_stm32f10x.c)(0x5825386C)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\src-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc-IC:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5E413300)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Users\minex\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
